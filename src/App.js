@@ -2,13 +2,17 @@ import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
-
+import  Row1  from './pages/Row1';
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
 import {  Patient} from './pages';
 import Row from './pages/Row';
 import './App.css';
 
 import { useStateContext } from './contexts/ContextProvider';
+import Row2 from './pages/Row2';
+import Row3 from './pages/Row3';
+import Row4 from './pages/Row4';
+import Row5 from './pages/Row5';
 
 const App = () => {
   const { setCurrentColor, setCurrentMode, currentMode, activeMenu, currentColor, themeSettings, setThemeSettings } = useStateContext();
@@ -71,6 +75,11 @@ const App = () => {
 
                 {/* pages  */}
                 <Route path="/Patient" element={<Patient />} />
+                <Route path='/NewPatients' element={<Row1/>} />
+                <Route path='/TriagedPatients' element={<Row2/>} />
+                 <Route path='/FinalizedPatients' element={<Row3/>} />
+                 <Route path='/BedInformation' element={<Row4/>} />
+                 <Route path='/Register' element={<Row5/>} />
               </Routes>
             </div>
             <Footer />
