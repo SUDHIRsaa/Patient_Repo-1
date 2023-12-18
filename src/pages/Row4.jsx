@@ -16,7 +16,7 @@ const Row4 = () => {
         
         ">Ward Name</div>
         <div className="p-4 rounded-[5px] text-center font-semibold bg-white pt-[8px] pr-[2px] pb-[1px] pl-[4px]
-        shadow-2xl hover:shadow-inner w-[140px] ml-[99px]  <!-- Updated left margin value -->
+        shadow-2xl hover:shadow-inner w-[140px] ml-[99px]  
         border-transparent">Occupied</div>
         <div className="p-4 rounded-[5px] bg-white pt-[8px] pr-[2px] pb-[1px] pl-[4px]
         shadow-2xl hover:shadow-inner text-center font-semibold

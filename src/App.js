@@ -13,6 +13,9 @@ import Row2 from './pages/Row2';
 import Row3 from './pages/Row3';
 import Row4 from './pages/Row4';
 import Row5 from './pages/Row5';
+import Row22 from './pages/Row22';
+import Row23 from './pages/Row23';
+import Row24 from './pages/Row24';
 
 const App = () => {
   const { setCurrentColor, setCurrentMode, currentMode, activeMenu, currentColor, themeSettings, setThemeSettings } = useStateContext();
@@ -80,6 +83,9 @@ const App = () => {
                  <Route path='/FinalizedPatients' element={<Row3/>} />
                  <Route path='/BedInformation' element={<Row4/>} />
                  <Route path='/Register' element={<Row5/>} />
+                 <Route path='/GenerateBill' element={<Row22/>} />
+                 <Route path='/Pathologytest' element={<Row23/>} />
+                 <Route path='/Info' element={<Row24/>} />
               </Routes>
             </div>
             <Footer />

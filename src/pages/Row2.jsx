@@ -72,7 +72,7 @@ const Row2 = () => {
       >
         
         <th className="p-4 rounded-[5px] bg-white pt-[8px] pr-[2px] pb-[1px] pl-[4px]
-        shadow-2xl hover:shadow-inner w-[140px] ml-[30px]  <!-- Updated left margin value -->
+        shadow-2xl hover:shadow-inner w-[140px] ml-[30px]  >
         border-transparent">SrN</th>
         <th className="p-4 rounded-[5px] bg-white pt-[8px] pr-[2px] pb-[1px] pl-[4px]
         shadow-2xl hover:shadow-inner

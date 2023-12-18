@@ -9,6 +9,8 @@ export const links = [
         name: 'Patient',
         icon: <FiShoppingBag />,
       },
+     
+     
     ],
   },
 ];
@@ -21,6 +23,7 @@ export const liks = [
         name: 'Row',
         
       },
+     
     
     ],
   },
